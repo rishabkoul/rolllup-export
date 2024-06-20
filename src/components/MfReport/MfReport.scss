@@ -1,0 +1,13 @@
+$primary-color: #3498db;
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  .title {
+    color: $primary-color;
+    font-size: 24px;
+  }
+}
