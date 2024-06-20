@@ -5,7 +5,7 @@ import styles from "./MfReport.module.scss";
 const MfReport = () => {
   console.log(styles, "styles");
   return (
-    <div className={styles.container}>
+    <div className="container">
       <h1 className={styles.title}>Hello from MF Report</h1>
       <img src={myImage} alt="Sample" />
     </div>

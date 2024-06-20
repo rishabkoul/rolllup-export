@@ -44,7 +44,7 @@ styleInject(css_248z);
 var MfReport = function MfReport() {
   console.log(styles, "styles");
   return /*#__PURE__*/React__default["default"].createElement("div", {
-    className: styles.container
+    className: "container"
   }, /*#__PURE__*/React__default["default"].createElement("h1", {
     className: styles.title
   }, "Hello from MF Report"), /*#__PURE__*/React__default["default"].createElement("img", {
