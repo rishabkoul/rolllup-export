@@ -1,0 +1,10 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.container .title {
+  color: #3498db;
+  font-size: 24px;
+}
