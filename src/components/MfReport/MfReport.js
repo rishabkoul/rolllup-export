@@ -1,6 +1,6 @@
 import React from "react";
 import myImage from "../../assets/fundLogo.png";
-import styles from "./MfReport.module.scss";
+import styles from "./MfReport.scss";
 
 const MfReport = () => {
   return (
