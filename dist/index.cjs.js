@@ -42,6 +42,7 @@ var styles = {"container":"MfReport_container__nO-Ay","title":"MfReport_title__f
 styleInject(css_248z);
 
 var MfReport = function MfReport() {
+  console.log(styles, "styles");
   return /*#__PURE__*/React__default["default"].createElement("div", {
     className: styles.container
   }, /*#__PURE__*/React__default["default"].createElement("h1", {
