@@ -34,14 +34,13 @@ var styles = {"container":"MfReport-module_container__xgsAE","title":"MfReport-m
 styleInject(css_248z);
 
 var MfReport = function MfReport() {
-  console.log(styles, "styles");
   return /*#__PURE__*/React.createElement("div", {
-    className: "container"
+    className: styles.container
   }, /*#__PURE__*/React.createElement("h1", {
     className: styles.title
-  }, "Hello from MF Report app"), /*#__PURE__*/React.createElement("img", {
+  }, "Hello from MF Report"), /*#__PURE__*/React.createElement("img", {
     src: img,
-    alt: "Sample ".concat(JSON.stringify(styles), " hey")
+    alt: "Sample"
   }));
 };
 
