@@ -37,8 +37,8 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".MfReport_container__nO-Ay {\n  text-align: center;\n  padding: 20px;\n  border: 1px solid #ddd;\n  border-radius: 4px;\n}\n.MfReport_container__nO-Ay .MfReport_title__fnOYV {\n  color: #3498db;\n  font-size: 24px;\n}";
-var styles = {"container":"MfReport_container__nO-Ay","title":"MfReport_title__fnOYV"};
+var css_248z = ".MfReport-module_container__xgsAE {\n  text-align: center;\n  padding: 20px;\n  border: 1px solid #ddd;\n  border-radius: 4px;\n}\n.MfReport-module_container__xgsAE .MfReport-module_title__wCTVr {\n  color: #3498db;\n  font-size: 24px;\n}";
+var styles = {"container":"MfReport-module_container__xgsAE","title":"MfReport-module_title__wCTVr"};
 styleInject(css_248z);
 
 var MfReport = function MfReport() {
