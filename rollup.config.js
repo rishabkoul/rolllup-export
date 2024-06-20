@@ -36,7 +36,7 @@ export default {
       modules: {
         generateScopedName: "[name]__[local]___[hash:base64:5]",
       },
-      extract: true, // Extract CSS to a separate file
+      extract: "index.css", // Extract CSS to a single file
       use: ["sass"],
     }),
   ],
