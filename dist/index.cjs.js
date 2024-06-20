@@ -47,7 +47,7 @@ var MfReport = function MfReport() {
     className: "container"
   }, /*#__PURE__*/React__default["default"].createElement("h1", {
     className: styles.title
-  }, "Hello from MF Report"), /*#__PURE__*/React__default["default"].createElement("img", {
+  }, "Hello from MF Report app"), /*#__PURE__*/React__default["default"].createElement("img", {
     src: img,
     alt: "Sample ".concat(JSON.stringify(styles), " hey")
   }));
