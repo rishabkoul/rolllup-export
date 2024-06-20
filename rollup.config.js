@@ -33,8 +33,8 @@ export default {
     }),
     image(),
     postcss({
-      modules: true, // Enable CSS Modules
-      extract: "index.css", // Extract CSS to a single file
+      extract: false,
+      modules: true,
       use: ["sass"],
     }),
   ],
