@@ -33,9 +33,7 @@ export default {
     }),
     image(),
     postcss({
-      modules: {
-        generateScopedName: "[name]__[local]___[hash:base64:5]",
-      },
+      modules: true, // Enable CSS Modules
       extract: "index.css", // Extract CSS to a single file
       use: ["sass"],
     }),
