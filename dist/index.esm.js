@@ -41,7 +41,7 @@ var MfReport = function MfReport() {
     className: styles.title
   }, "Hello from MF Report"), /*#__PURE__*/React.createElement("img", {
     src: img,
-    alt: "Sample"
+    alt: "Sample ".concat(JSON.stringify(styles), " hey")
   }));
 };
 
